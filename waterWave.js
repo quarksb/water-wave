@@ -24,7 +24,7 @@ class Wave {
         let height = data.map(
             (value) => {
                 let x = value - this.angular_speed * dt / 1000;
-                let h = x < 0 ? (Math.sin(x)+1)/4 : 0;
+                let h = x < 0 ? (Math.sin(x)+1)/4 : 0.25;
                 return h;
             }
         )
