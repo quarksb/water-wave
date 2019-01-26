@@ -11,4 +11,6 @@ So I use a transverse wave propagation which along the +x axis to simulate water
 If you are a chinese, you can my analysis on 知乎
 https://www.zhihu.com/question/305185891/answer/548610049
 
-this is the master branch 
+quake you need spend more time to msater git tool, 
+let the storm come more violently.
+
