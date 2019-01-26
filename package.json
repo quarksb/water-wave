@@ -9,8 +9,8 @@
   },
   "repository": {
     "type": "git",
-    
-    "url": "https://github.com"
+    "ssh":"git@github.com:jack-shanghai/water-wave.git",
+    "url": "https://github.com/jack-shanghai/water-wave.git"
   },
   "author": "quakeofchina",
   "license": "MIT"
