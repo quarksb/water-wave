@@ -32,7 +32,7 @@ class Wave {
         let bg = "radial-gradient(circle at ";
         bg += `${this.position.px}px ${this.position.py}px`;
         height.forEach(function (value,index) {
-            bg += `,rgba(192,85,181,${value*(100 - index) / 100 * (this.duration - dt) / this.duration}) ${index + 1}%`;
+            bg += `,rgba(0,05,0,${value*(100 - index) / 100 * (this.duration - dt) / this.duration}) ${index + 1}%`;
         }.bind(this));
         bg += ")";
 
