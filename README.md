@@ -1,4 +1,4 @@
-### water_wave
+# water_wave
 this is an jsfile which create an interactive animation to emulate a water-wave.
 
 this file using es6. 
@@ -8,9 +8,23 @@ water wave will emerge from where you click on the web page, and it will gradual
 To be honest, water wave is much complexed than transverse wave, and transverse wave can not spread in water. However, hydrone which in water surface have both vertical movement and Horizontal movement(hardly to see).
 
 So I use a transverse wave propagation which along the +x axis to simulate water wave.
-If you are a chinese, you can my analysis on 知乎
-https://www.zhihu.com/question/305185891/answer/548610049
 
-quake you need spend more time to msater git tool, 
-let the storm come more violently.
+If you are a chinese, you can my chinese analysis on [知乎](https://www.zhihu.com/question/305185891/answer/548610049)
 
+## How to use
+if you just want use with default config, you can use like this:
+
+    const wave = new Wave();
+    document.querySelector("body").onClick = wave.render(event);
+
+![效果展示](https://pic4.zhimg.com/50/v2-96ec56049de75a8fd8df55e68cccc43d_hd.jpg)
+
+### grammar
+    Wave([duration [, angularVelocity])
+    //duration:1000ms, angularVelocity:20
+    const wave = new Wave(1000,20);
+    document.querySelector("body").onClick = wave.render(event);
+
+## To do
+The color is also editable, but I don't know how to converse your input value into numerical rgb.
+    
