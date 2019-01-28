@@ -13,12 +13,13 @@ If you are a chinese, you can my chinese analysis on [知乎](https://www.zhihu.
 
 ## How to use
 if you just want use with default config, you can use like this:
+``` js
+import waterWave from "interactive-water-wave";
+document.querySelector("body").onclick = (e)=>waterWave(e);
+```
 
-    import waterWave from "../lib/waterWave.js";
-    document.querySelector("body").onclick = (e)=>waterWave(e);
+![效果展示](https://pic4.zhimg.com/50/v2-96ec56049de75a8fd8df55e68cccc43d_hd.gif)
 
-![效果展示](https://pic4.zhimg.com/50/v2-96ec56049de75a8fd8df55e68cccc43d_hd.jpg)
-
-## To do
+## Todo
 The color is also editable, but I don't know how to converse your input value into numerical rgb.
     

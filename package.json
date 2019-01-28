@@ -1,9 +1,9 @@
 {
-  "name": "water-wave-test",
-  "version": "1.0.0",
+  "name": "interactive-water-wave",
+  "version": "0.0.1",
   "description": "an js to mimic water wave",
-  "main": "index.js",
-  "private": false,
+  "main": "lib/water-wave.js",
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
