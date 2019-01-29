@@ -1,25 +1,24 @@
-# water_wave
-this is an jsfile which create an interactive animation to emulate a water-wave.
+# Water Wave
+Interactive water wave emulating animation using ES6.
 
-this file using es6. 
+Water wave will emerge from your click, and gradually weaken in time (5s by default) and distance.
 
-water wave will emerge from where you click on the web page, and it will gradually weaken with time (the default value is 5 seconds)and distance.
+In fact, water wave is much more complexed than transverse wave, since transverse wave can not spread in water. However, molecules in water surface have both vertical and horizontal movement (hard to see).
 
-To be honest, water wave is much complexed than transverse wave, and transverse wave can not spread in water. However, hydrone which in water surface have both vertical movement and Horizontal movement(hardly to see).
+So we use a transverse wave propagation along the +x axis to simulate water wave.
 
-So I use a transverse wave propagation which along the +x axis to simulate water wave.
-
-If you are a chinese, you can my chinese analysis on [知乎](https://www.zhihu.com/question/305185891/answer/548610049)
+For Chinese users, see Chinese analysis on [知乎](https://www.zhihu.com/question/305185891/answer/548610049)
 
 ## How to use
-if you just want use with default config, you can use like this:
+For simple usage:
+
 ``` js
-import waterWave from "interactive-water-wave";
-document.querySelector("body").onclick = (e)=>waterWave(e);
+import waterWave from 'interactive-water-wave';
+
+document.querySelector('body').onclick = (e) => waterWave(e);
 ```
 
-![效果展示](https://pic4.zhimg.com/50/v2-96ec56049de75a8fd8df55e68cccc43d_hd.gif)
+![Demo](https://pic4.zhimg.com/50/v2-96ec56049de75a8fd8df55e68cccc43d_hd.gif)
 
 ## Todo
-The color is also editable, but I don't know how to converse your input value into numerical rgb.
-    
+The color is also editable, but I don't know how to convert your input args into numerical rgb.
